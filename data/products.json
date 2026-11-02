@@ -1,0 +1,93 @@
+[
+  {
+    "id": "a2",
+    "name": "A2 Milk",
+    "tag": "THE ORIGINAL GLASS BOTTLE",
+    "type": "milk",
+    "image": "brand/original-milk-bottles.webp",
+    "description": "A2 cow milk in the original FreshDay glass bottle.",
+    "detail": "A2 cow milk from Shri Shankar Dairy Farm, presented in the original blue-labelled glass bottle. A2 milk contains lactose and milk allergens.",
+    "label": "A2 Milk",
+    "price": 110,
+    "unit": "L",
+    "display": "₹110 / L"
+  },
+  {
+    "id": "paneer",
+    "name": "Paneer",
+    "tag": "FOR YOUR FAVOURITE RECIPES",
+    "type": "fresh",
+    "image": "blue-paneer.webp",
+    "description": "From a quick bhurji to a comforting family curry.",
+    "detail": "Fresh paneer for everyday cooking. Contains milk. Follow the storage and use-by instructions on the supplied pack.",
+    "label": "Paneer",
+    "price": 450,
+    "unit": "kg",
+    "display": "₹450 / kg"
+  },
+  {
+    "id": "chhach",
+    "name": "Chhach",
+    "tag": "A REFRESHING DAIRY RITUAL",
+    "type": "fresh",
+    "image": "blue-chhach.webp",
+    "description": "A refreshing addition to your everyday table.",
+    "detail": "Chhach, also called buttermilk. Contains milk. Follow the refrigeration instructions on the final pack.",
+    "label": "Chhach",
+    "price": 50,
+    "unit": "L",
+    "display": "₹50 / L"
+  },
+  {
+    "id": "dahi",
+    "name": "Dahi",
+    "tag": "A SPOONFUL OF COMFORT",
+    "type": "fresh",
+    "image": "blue-dahi.webp",
+    "description": "For raita, a familiar bowl or a spoonful alongside lunch.",
+    "detail": "Dahi for your everyday table. Contains milk. The listed rate is per litre, as supplied in the FreshDay product list.",
+    "label": "Dahi",
+    "price": 350,
+    "unit": "L",
+    "display": "₹350 / L"
+  },
+  {
+    "id": "butter",
+    "name": "White Butter",
+    "tag": "A LITTLE EVERYDAY INDULGENCE",
+    "type": "pantry",
+    "image": "blue-butter.webp",
+    "description": "For warm parathas, home cooking and familiar favourites.",
+    "detail": "White butter for your kitchen and table. Contains milk. Refer to the final product label for storage and nutrition information.",
+    "label": "White Butter",
+    "price": 1550,
+    "unit": "kg",
+    "display": "₹1,550 / kg"
+  },
+  {
+    "id": "ghee",
+    "name": "Desi Ghee",
+    "tag": "GOLDEN GOODNESS FOR YOUR KITCHEN",
+    "type": "pantry",
+    "image": "blue-ghee.webp",
+    "description": "A golden finishing touch for your favourite dishes.",
+    "detail": "Desi ghee for cooking and serving. Made from dairy. Refer to the product label for allergen, nutrition and storage details.",
+    "label": "Desi Ghee",
+    "price": 2850,
+    "unit": "kg",
+    "display": "₹2,850 / kg"
+  },
+  {
+    "id": "khoya",
+    "name": "Khoya",
+    "tag": "FOR SOMETHING SWEET",
+    "type": "pantry",
+    "image": "blue-khoya.webp",
+    "description": "Bring your favourite Indian sweets to life.",
+    "detail": "Khoya for traditional recipes and sweets. Contains milk. Keep and use according to the final pack instructions.",
+    "label": "Khoya",
+    "price": 650,
+    "unit": "kg",
+    "display": "₹650 / kg"
+  }
+]
