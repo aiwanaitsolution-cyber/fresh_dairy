@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 import { useSite } from "./SiteProvider";
 const links = [
   ["/", "Home"],
-  ["/dairy", "Our dairy"],
-  ["/our-way", "Our way"],
-  ["/goodness", "Everyday goodness"],
-  ["/app", "The app"],
+  ["/about-us", "About us"],
+  ["/product", "Product"],
+  ["/future-plans", "Future plans"],
+  ["/gallery", "Gallery"],
 ];
 export function BrandLogo() {
   return (

@@ -37,9 +37,10 @@ export default function Footer() {
           {"White Butter · Desi Ghee · Khoya"}
         </p>
         <div>
-          <a href={"/our-way"}>{"Our way"}</a>
-          <a href={"/goodness"}>{"Everyday goodness"}</a>
-          <a href={"/app"}>{"App coming soon"}</a>
+          <a href={"/about-us"}>{"About us"}</a>
+          <a href={"/product"}>{"Product"}</a>
+          <a href={"/future-plans"}>{"Future plans"}</a>
+          <a href={"/gallery"}>{"Gallery"}</a>
           <ClearSelection />
         </div>
         <section className={"farm-contact"}>

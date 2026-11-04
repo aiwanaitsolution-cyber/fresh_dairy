@@ -22,7 +22,7 @@ const slides = [
     title: "A little fresh.|For every meal.",
     copy: "From milk and paneer to chhach, dahi, butter, ghee and khoya.",
     cta: "Explore our dairy",
-    url: "/dairy",
+    url: "/product",
   },
   {
     image: "/assets/delivery-table.webp",
@@ -75,7 +75,7 @@ export default function HomeContent() {
             <span>{"01"}</span>
             <h3>{"Choose your favourites"}</h3>
             <p>{"Explore seven dairy essentials and the listed rates."}</p>
-            <a className={"text-link"} href={"/dairy"}>
+            <a className={"text-link"} href={"/product"}>
               {"Explore our dairy ↗"}
             </a>
           </article>
@@ -131,7 +131,7 @@ export default function HomeContent() {
               "A comforting cup of chai. A good breakfast. Your favourite dairy delivered home, with availability and timings confirmed by our team."
             }
           </p>
-          <a className={"text-link"} href={"/our-way"}>
+          <a className={"text-link"} href={"/about-us"}>
             {"Discover our way ↗"}
           </a>
         </div>
@@ -265,7 +265,7 @@ export default function HomeContent() {
               "Explore our A2 milk and six dairy favourites, from refreshing chhach to golden desi ghee and traditional khoya."
             }
           </p>
-          <a className={"text-link"} href={"/dairy#milk"}>
+          <a className={"text-link"} href={"/product#collection"}>
             {"Explore all seven ↗"}
           </a>
         </div>
