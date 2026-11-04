@@ -37,7 +37,7 @@ export default function DeliveryEnquiry() {
           timings and available pack sizes.
         </p>
         <div className="delivery-contact-links">
-          <a href="tel:+91931933201">Call +91931933201 ↗</a>
+          <a href="tel:+919319330201">Call +919319330201 ↗</a>
         </div>
       </div>
       <form className="delivery-form reveal" onSubmit={submit} noValidate>
