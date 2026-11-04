@@ -37,7 +37,7 @@ test("Malformed or obsolete saved products cannot populate the selection", () =>
     ["A2 Milk", "Khoya"],
   );
 });
-test("Catalogue retains the supplied rates and units, including Dahi per litre", () => {
+test("Catalogue retains the supplied rates and units, including Dahi per kilogram", () => {
   assert.equal(products.length, 7);
   assert.deepEqual(
     products.map(({ price, unit }) => [price, unit]),
@@ -45,7 +45,7 @@ test("Catalogue retains the supplied rates and units, including Dahi per litre",
       [110, "L"],
       [450, "kg"],
       [50, "L"],
-      [350, "L"],
+      [160, "kg"],
       [1550, "kg"],
       [2850, "kg"],
       [650, "kg"],

@@ -44,7 +44,7 @@ export default function Footer() {
           <ClearSelection />
         </div>
         <section className={"farm-contact"}>
-          <strong>{"SHRI SHANKAR DAIRY FARM"}</strong>
+          <strong>{"SHRI SHANKER DAIRY FARM PVT. LTD."}</strong>
           <p>
             {"Near Hanuman Vatika, Vill. Chandpur, Bulandshahr 203001, U.P."}
           </p>

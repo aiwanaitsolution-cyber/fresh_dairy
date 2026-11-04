@@ -6,7 +6,7 @@
     "type": "milk",
     "image": "brand/original-milk-bottles.webp",
     "description": "A2 cow milk in the original FreshDay glass bottle.",
-    "detail": "A2 cow milk from Shri Shankar Dairy Farm, presented in the original blue-labelled glass bottle. A2 milk contains lactose and milk allergens.",
+    "detail": "A2 cow milk from Shri Shanker Dairy Farm Pvt. Ltd., presented in the original blue-labelled glass bottle. A2 milk contains lactose and milk allergens.",
     "label": "A2 Milk",
     "price": 110,
     "unit": "L",
@@ -45,11 +45,11 @@
     "type": "fresh",
     "image": "blue-dahi.webp",
     "description": "For raita, a familiar bowl or a spoonful alongside lunch.",
-    "detail": "Dahi for your everyday table. Contains milk. The listed rate is per litre, as supplied in the FreshDay product list.",
+    "detail": "Dahi for your everyday table. Contains milk. The listed rate is per kilogram, as supplied in the FreshDay product list.",
     "label": "Dahi",
-    "price": 350,
-    "unit": "L",
-    "display": "₹350 / L"
+    "price": 160,
+    "unit": "kg",
+    "display": "₹160 / kg"
   },
   {
     "id": "butter",

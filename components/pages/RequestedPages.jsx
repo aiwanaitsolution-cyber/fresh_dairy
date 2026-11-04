@@ -30,7 +30,7 @@ export function AboutUsContent() {
   return (
     <>
       <EditorialHero eyebrow="A DAIRY FAMILY, CLOSE TO HOME" title={<>A better kind of <em>morning.</em></>} copy="FreshDay began with a simple belief: when the source is cared for, the everyday feels better." image="/assets/generated/about-farm.png" alt="Farmer walking with cows beside a dairy shed at sunrise" action="Meet our dairy" href="/product" />
-      <PageIntro eyebrow="ABOUT FRESHDAY" title={<>Good dairy starts with <em>good intent.</em></>} copy="We are a family-run dairy initiative from Shri Shankar Dairy Farm, bringing original glass-bottled A2 milk and familiar dairy favourites closer to the homes we serve." />
+      <PageIntro eyebrow="ABOUT FRESHDAY" title={<>Good dairy starts with <em>good intent.</em></>} copy="FreshDay is the consumer brand of Shri Shanker Dairy Farm Pvt. Ltd., bringing original glass-bottled A2 milk and familiar dairy favourites closer to the homes we serve." />
       <section className="brand-story-split section-pad">
         <div className="brand-story-image reveal"><img src="/assets/generated/about-farm.png" alt="A cared-for dairy farm in the morning" loading="lazy" /></div>
         <div className="brand-story-copy reveal"><p className="eyebrow">FROM OUR FARM</p><h2>Closer to the source. <em>Closer to you.</em></h2><p>Every bottle begins with the people, animals and routines that make a dairy work. We keep that connection visible, from the farm to the first pour at home.</p><p>FreshDay is being built patiently, with clear information, thoughtful delivery and products made for real Indian kitchens.</p><a className="text-link" href="/future-plans">See what is next ↗</a></div>

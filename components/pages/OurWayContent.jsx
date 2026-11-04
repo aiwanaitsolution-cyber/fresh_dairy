@@ -20,7 +20,7 @@ const slides = [
     alt: "Dairy handover at a modern Indian home",
     kicker: "A LITTLE MORE CARE",
     title: "Close to nature.|Closer to home.",
-    copy: "Meet Shri Shankar Dairy Farm and discover the FreshDay range.",
+    copy: "Meet Shri Shanker Dairy Farm Pvt. Ltd. and discover the FreshDay range.",
     cta: "Our dairy",
     url: "/dairy",
   },

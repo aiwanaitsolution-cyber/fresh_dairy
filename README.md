@@ -72,7 +72,7 @@ Tailwind utilities are compiled locally. The approved brand layout is retained i
 
 ## Product rates supplied by the brand
 
-A2 Milk ₹110/L; Paneer ₹450/kg; Chhach ₹50/L; Dahi ₹350/L; White Butter ₹1,550/kg; Desi Ghee ₹2,850/kg; Khoya ₹650/kg. These are rates per listed unit, not guaranteed pack sizes.
+A2 Milk ₹110/L; Paneer ₹450/kg; Chhach ₹50/L; Dahi ₹160/kg; White Butter ₹1,550/kg; Desi Ghee ₹2,850/kg; Khoya ₹650/kg. These are rates per listed unit, not guaranteed pack sizes.
 
 ## Scope and launch status
 
