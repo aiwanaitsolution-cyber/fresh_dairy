@@ -19,7 +19,7 @@ test("Delivery enquiry encodes the PIN and selected products without implying a 
     createDeliveryEnquiry("201301", ["Desi Ghee", "Paneer", "Desi Ghee"]),
   );
   assert.equal(url.hostname, "wa.me");
-  assert.equal(url.pathname, "/919560370201");
+  assert.equal(url.pathname, "/91931933201");
   assert.match(
     url.searchParams.get("text"),
     /confirm home delivery availability and timings for PIN 201301/,
