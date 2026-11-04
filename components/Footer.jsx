@@ -49,7 +49,7 @@ export default function Footer() {
             {"Near Hanuman Vatika, Vill. Chandpur, Bulandshahr 203001, U.P."}
           </p>
           <p>
-            <a href={"tel:+91931933201"}>{"+91 93193 3201"}</a>
+            <a href={"tel:+91931933201"}>{"+91931933201"}</a>
           </p>
           <small>{"FSSAI licence: 12720054000195"}</small>
         </section>
