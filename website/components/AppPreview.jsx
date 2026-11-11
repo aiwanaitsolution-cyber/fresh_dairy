@@ -67,6 +67,10 @@ export default function AppPreview() {
           App interface is a concept preview. Launch date and store links will
           be announced.
         </p>
+        <div className="app-preview-links">
+          <a className="button" href="/customer">Open customer app demo ↗</a>
+          <a className="text-link" href="/admin">Open operations dashboard ↗</a>
+        </div>
       </div>
       <div className="phone-stage reveal">
         <div className="phone app-demo">

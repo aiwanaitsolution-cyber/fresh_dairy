@@ -1,9 +1,24 @@
+# Dependencies and build output
+website/node_modules/
+website/.next/
+website/.vercel/
 node_modules/
 .next/
-out/
-.env*
-!.env.example
-*.log
-.DS_Store
+.vercel/
+app/node_modules/
+app/.expo/
+app/dist/
+app/android/.gradle/
+app/android/build/
+app/android/app/build/
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/.env
 
-.vercel
+# Local tooling and secrets
+.playwright-mcp/
+*.log
+*.pyc
+hs_err_pid*.log
+replay_pid*.log

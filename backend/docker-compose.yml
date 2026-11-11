@@ -1,0 +1,21 @@
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: freshday
+      MYSQL_USER: freshday
+      MYSQL_PASSWORD: freshday
+      MYSQL_ROOT_PASSWORD: freshday-root
+    ports:
+      - "3307:3306"
+    volumes:
+      - freshday_mysql:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 4s
+      retries: 20
+volumes:
+  freshday_mysql:
+

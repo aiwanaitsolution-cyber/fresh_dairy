@@ -1,8 +1,6 @@
 import "./globals.css";
 import SiteProvider from "@/components/SiteProvider";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import MotionEffects from "@/components/MotionEffects";
+import RouteShell from "@/components/RouteShell";
 export const metadata = {
   title: {
     default: "FreshDay | Dairy delivered home",
@@ -21,10 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="home-page delivery-site antialiased">
         <SiteProvider>
-          <Header />
-          <MotionEffects />
-          <main id="main">{children}</main>
-          <Footer />
+          <RouteShell>{children}</RouteShell>
         </SiteProvider>
       </body>
     </html>

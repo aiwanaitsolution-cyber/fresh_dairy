@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "FreshDay",
+    "slug": "freshday",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand/freshday-mark.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.freshday.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F5F9FB",
+        "foregroundImage": "./assets/brand/freshday-mark.png"
+      },
+      "package": "in.freshday.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font"],
+    "assetBundlePatterns": ["**/*"]
+  }
+}
