@@ -40,6 +40,39 @@ jobs:
       - run: npm ci
       - run: npx expo export --platform android
 
+  android-apk:
+    name: Build standalone Android APK
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+      - uses: android-actions/setup-android@v3
+      - name: Install Android SDK packages
+        run: sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+      - run: npm ci
+      - run: npx expo prebuild --platform android --no-install
+      - name: Assemble debug APK
+        working-directory: app/android
+        run: ./gradlew assembleDebug --no-daemon --max-workers=2
+      - name: Upload standalone APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: freshday-android-debug-apk
+          path: app/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+
   backend:
     name: Backend checks
     runs-on: ubuntu-latest
