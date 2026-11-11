@@ -64,14 +64,14 @@ jobs:
         run: sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
       - run: npm ci
       - run: npx expo prebuild --platform android --no-install
-      - name: Assemble debug APK
+      - name: Assemble standalone release APK
         working-directory: app/android
-        run: ./gradlew assembleDebug --no-daemon --max-workers=2
+        run: ./gradlew assembleRelease --no-daemon --max-workers=2
       - name: Upload standalone APK
         uses: actions/upload-artifact@v4
         with:
-          name: freshday-android-debug-apk
-          path: app/android/app/build/outputs/apk/debug/app-debug.apk
+          name: freshday-android-standalone-apk
+          path: app/android/app/build/outputs/apk/release/app-release.apk
           if-no-files-found: error
 
   backend:
